@@ -1,0 +1,36 @@
+select:focus, input:focus{
+  outline: 2px solid rgb(255, 153, 0);
+}
+body{
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+select{
+  color: black;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(213, 217, 217);
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 3px 5px;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+  cursor: pointer;
+}
+
+.primary-button{
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+.primary-button:hover{
+  background-color: rgb(247, 202, 0);
+}
+
+.primary-button:active{
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  box-shadow: none;
+}
