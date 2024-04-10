@@ -3,7 +3,9 @@ select:focus, input:focus{
 }
 body{
   font-family: Roboto, Arial;
+  color: rgb(33, 33, 33);
   margin: 0;
+  padding: 0;
 }
 
 select{
@@ -33,4 +35,21 @@ select{
   background-color: rgb(255, 216, 20);
   border: 1px solid rgb(252, 210, 0);
   box-shadow: none;
+}
+
+.secondary-button{
+  border-radius: 8px;
+  border: 1px solid rgb(213, 217, 217);
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+.primary-link{
+  color: rgb(1, 124, 182);
+}
+.primary-link:hover{
+  color: rgb(201, 22, 22);
+}
+.primary-link:active{
+  color: rgb(1, 124, 182);
 }
