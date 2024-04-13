@@ -8,6 +8,12 @@ body{
   padding: 0;
 }
 
+@media(max-width: 500px){
+  .main{
+    margin-top: 160px;
+  }
+}
+
 select{
   color: black;
   background-color: rgb(240, 240, 240);

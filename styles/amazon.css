@@ -1,7 +1,11 @@
 .main{
-  margin-top: 60px
+  margin-top: 55px
 }
-
+@media(max-width: 500px){
+  .main{
+    margin-top: 100px;
+  }
+}
 .product-grid{
   display: grid;
   grid-template-columns: repeat(8,1fr);

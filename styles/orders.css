@@ -5,6 +5,12 @@
   margin: 90px auto;
 }
 
+@media(max-width: 500px){
+  .main{
+    margin-top: 140px;
+  }
+}
+
 .page-title{
   font-weight: 700;
   font-size: 26px;

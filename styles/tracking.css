@@ -5,6 +5,12 @@
   margin: 90px auto 100px;
 }
 
+@media(max-width: 500px){
+  .main{
+    margin-top: 140px;
+  }
+}
+
 .page-link{
   margin-bottom: 30px;
 }
